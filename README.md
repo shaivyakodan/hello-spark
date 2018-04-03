@@ -3,4 +3,5 @@
 This is my first repository!
 
 
-- Shaivya
+> Shaivya Kodan
+![Minion](https://octodex.github.com/images/minion.png)
