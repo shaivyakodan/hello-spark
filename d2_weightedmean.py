@@ -1,8 +1,10 @@
+list_first = raw_input()
+list_00=list_first.split()
+p=map(int,list_00)
 
-# coding: utf-8
-
-# In[ ]:
-
+list_weights = raw_input()
+list_01=list_weights.split()
+q=map(int,list_01)
 
 def weightedMean(X,W,n) :
     sum = 0
@@ -17,38 +19,6 @@ def weightedMean(X,W,n) :
     return (float)(numWeight / sum)
 
 
-# In[ ]:
+weightedMean(p,q,len(q))
 
-
-def print_mode (thelist):
-  counts = {}
-  for item in thelist:
-    counts [item] = counts.get (item, 0) + 1
-  maxcount = 0
-  maxitem = None
-  for k, v in counts.items ():
-    if v > maxcount:
-      maxitem = k
-      maxcount = v
-  if maxcount == 1:
-    print "No mode"
-  elif counts.values().count(maxcount) > 1:
-    print maxitem
-  else:
-    print maxitem , maxcount
-
-
-# In[ ]:
-
-
-#sort_list=[]
-#for i in range(len(x)):
-    #min_value=x[0]
-    #if x < min_value:
-        #minimum=x
-        #sort_list.append(min)
-        #x.remove(min)
-        
-# main()
-# if "__name__" ==
 
